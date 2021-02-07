@@ -25,7 +25,26 @@ aby obsahovaly čísla, řetězce i vnořený objekt.
 Vytvořte alespoň jednu další knihu se stejnými vlastnostmi ale jinými hodnotami.*/
 
 
+const books = {
+  author: "George Orwell",
+  name: "1984",
+  pages: 220,
+  publish: {
+    publisher: "Nakladatelství",
+    year: 2010,
+  },
 
+  author: "Erich Maria Remarque",
+  name: "Na západní frontě klid",
+  pages: 250,
+  publish: {
+    publisher: "Epocha",
+    year: 2008,
+  }
+}
+
+/*může být tak, nebo lepší mít druhou knihu jako proměnnou book2. Jak se dostanu přes tečkovou anotaci
+k první knize? */
 
 
 
@@ -61,3 +80,17 @@ Nula není ani lichá ani sudá, ani černá ani červená.
 
 Vytvořte stránku, které uživatel zadá číslo a stránka odpoví jestli jde o číslo sudé nebo liché, 
 černé nebo červené, nebo je to nula.*/
+
+
+let sazba = 500;
+let vyplata = 8 * 21 * sazba;
+console.log(vyplata);
+
+sazba = 700;
+vyplata = 8 * 21 * sazba
+console.log(vyplata);
+
+/*může se takto psát let proměnná?, ale ne u const*/
+
+
+
