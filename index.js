@@ -33,18 +33,27 @@ const books = {
     publisher: "Nakladatelství",
     year: 2010,
   },
+}
 
-  author: "Erich Maria Remarque",
+  const { author, name, pages } = books;
+
+  const content = `Kniha má ${pages} stránek a napsal ji ${author}`;
+  
+  document.write(content);
+
+
+
+ /* author: "Erich Maria Remarque",
   name: "Na západní frontě klid",
   pages: 250,
   publish: {
     publisher: "Epocha",
     year: 2008,
   }
-}
+}*/
 
 /*může být tak, nebo lepší mít druhou knihu jako proměnnou book2. Jak se dostanu přes tečkovou anotaci
-k první knize? */
+k první knize? Když chci vypsat obě knihy, dám je do pole a vymapuji?*/
 
 
 
@@ -64,9 +73,21 @@ Jakmile uživatel zadá věk, zkontrolujte, že je větší nebo roven 65. Pokud
 Pokud uživatel nemá alespoň 65 let, vypište Nízký věk.
 Jakmile uživatel zadá heslo, zkontrolujte, že je delší než osm znaků. Pokud není, vypište slabé heslo.*/
 
+const age = Number(prompt("Zadejte věk"));
+const password = String(prompt("Zadejte heslo"))
 
+if (age >= 65) {
+document.write("v pořádku");
+}
+else {
+  document.write("nízký věk");
+}
 
+if (password.length < 8) {
+  document.write("slabé heslo");
+}
 
+/*zkusit více podmínek na zadání hesla*/
 
 
 
@@ -81,6 +102,20 @@ Nula není ani lichá ani sudá, ani černá ani červená.
 Vytvořte stránku, které uživatel zadá číslo a stránka odpoví jestli jde o číslo sudé nebo liché, 
 černé nebo červené, nebo je to nula.*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dotaz*/
 
 let sazba = 500;
 let vyplata = 8 * 21 * sazba;
