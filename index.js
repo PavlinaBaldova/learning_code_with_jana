@@ -23,7 +23,9 @@ jaký je rozdíl mezi vstupem a použitou proměnnou*/
 
   /*otázky:
   používají se v praxi :nth-child, last-of-type
-  máš zkušenosti s .Netem*/
+  máš zkušenosti s .Netem
+  jak to vypadá s pozice kodérů vs. editory na CSS vs. UX
+  frontendmentor: https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8*/
 
 
 
