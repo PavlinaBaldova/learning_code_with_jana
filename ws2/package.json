@@ -1,0 +1,16 @@
+{
+  "name": "ws2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entrypoint.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jana",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
